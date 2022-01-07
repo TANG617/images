@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T16:07:21.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="RTysA-GuY3AddNdL_5Rg" version="16.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T16:09:13.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="me43wu2gISVS4mziJ7zL" version="16.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="820" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="是否购买树莓派" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Poq83pnSZawdibOX6Mm5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7">
+        <mxCell id="Poq83pnSZawdibOX6Mm5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="Poq83pnSZawdibOX6Mm5-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="210" as="targetPoint" />
           </mxGeometry>
@@ -48,7 +48,7 @@
           <mxGeometry x="140" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="树莓派4B的价格近千元，成品群晖NAS不好吗？&lt;br&gt;即使群晖入门只有单/双盘位，不也比树莓派USB3.0更好吗？" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="360" y="275" width="120" height="110" as="geometry" />
+          <mxGeometry x="420" y="275" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Poq83pnSZawdibOX6Mm5-4" target="Poq83pnSZawdibOX6Mm5-5">
           <mxGeometry relative="1" as="geometry" />
@@ -56,31 +56,37 @@
         <mxCell id="Poq83pnSZawdibOX6Mm5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Poq83pnSZawdibOX6Mm5-4" target="Poq83pnSZawdibOX6Mm5-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="300" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Poq83pnSZawdibOX6Mm5-4" value="是否拿出一整台x86电脑" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="170" width="80" height="80" as="geometry" />
+        <mxCell id="Poq83pnSZawdibOX6Mm5-4" value="是否拿出一整台x86电脑安装「树莓盘」？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="140" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-5" value="拿一整台PC装「树莓盘」？你确定？&lt;br&gt;1. Ubuntu+Samba还可以内网访问，这个不好？&lt;br&gt;2. Windows Server+smb，这个配置不够简单？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="20" width="120" height="220" as="geometry" />
+          <mxGeometry x="770" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="190" width="40" height="20" as="geometry" />
+          <mxGeometry x="650" y="190" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Poq83pnSZawdibOX6Mm5-8" target="Poq83pnSZawdibOX6Mm5-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-8" value="虚拟机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="720" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-10" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="585" y="250" width="30" height="20" as="geometry" />
+          <mxGeometry x="585" y="280" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-124" value="大量性能损失" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="850" y="265" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Poq83pnSZawdibOX6Mm5-126" value="如果我不会折腾Linux的操作，我干嘛买树莓派？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="250" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Poq83pnSZawdibOX6Mm5-128" value="我不需要树莓派" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="325" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
