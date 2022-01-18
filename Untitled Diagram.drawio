@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T15:07:38.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="kJgQ0ncC3XZplTO1CbjM" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T00:08:28.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="BRBAGkBjVVbsEy2cQEwE" version="16.2.7" type="github">
   <diagram id="pp3l6Q0Ol6kUqJehos5B" name="Page-1">
-    <mxGraphModel dx="914" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="444" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,12 +9,6 @@
         </mxCell>
         <mxCell id="5tg6UDMfDckh28AA2Lbs-2" value="ESP8266&lt;br&gt;ESP12F" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="365" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5tg6UDMfDckh28AA2Lbs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5tg6UDMfDckh28AA2Lbs-6" target="5tg6UDMfDckh28AA2Lbs-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5tg6UDMfDckh28AA2Lbs-6" value="220V转5V" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5tg6UDMfDckh28AA2Lbs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5tg6UDMfDckh28AA2Lbs-7" target="5tg6UDMfDckh28AA2Lbs-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,10 +32,16 @@
           <mxGeometry x="10" y="5" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5tg6UDMfDckh28AA2Lbs-16" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="290" width="160" height="190" as="geometry" />
+          <mxGeometry x="50" y="285" width="170" height="215" as="geometry" />
         </mxCell>
         <mxCell id="5tg6UDMfDckh28AA2Lbs-26" value="供电模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="5tg6UDMfDckh28AA2Lbs-16" vertex="1">
           <mxGeometry x="20" y="15" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5tg6UDMfDckh28AA2Lbs-6" value="220V转5V" style="whiteSpace=wrap;html=1;" parent="5tg6UDMfDckh28AA2Lbs-16" vertex="1">
+          <mxGeometry x="20" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5AA3waO8hARg1QaDYXk-2" value="18650电池" style="whiteSpace=wrap;html=1;" vertex="1" parent="5tg6UDMfDckh28AA2Lbs-16">
+          <mxGeometry x="20" y="125" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5tg6UDMfDckh28AA2Lbs-20" value="传感器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="280" width="120" height="60" as="geometry" />
@@ -79,11 +79,17 @@
         <mxCell id="5tg6UDMfDckh28AA2Lbs-38" value="调试模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="370" y="550" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bGYQp8iedOxxfcoSSREm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bGYQp8iedOxxfcoSSREm-1" target="5tg6UDMfDckh28AA2Lbs-2">
+        <mxCell id="bGYQp8iedOxxfcoSSREm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bGYQp8iedOxxfcoSSREm-1" target="5tg6UDMfDckh28AA2Lbs-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bGYQp8iedOxxfcoSSREm-1" value="外部开关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGYQp8iedOxxfcoSSREm-1" value="外部开关" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5AA3waO8hARg1QaDYXk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5AA3waO8hARg1QaDYXk-2" target="5tg6UDMfDckh28AA2Lbs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5AA3waO8hARg1QaDYXk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tg6UDMfDckh28AA2Lbs-6" target="5tg6UDMfDckh28AA2Lbs-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
